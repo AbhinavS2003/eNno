@@ -1,0 +1,307 @@
+.navbar-brand {
+  font-size: 30px;
+  color: rgb(94, 103, 122);
+}
+.nav1 {
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgb(217, 214, 214);
+}
+.nav-link:hover {
+  color: rgb(17, 189, 106);
+}
+.dropdown-item:hover {
+  color: rgb(17, 189, 106);
+}
+.gsbtn {
+  color: white;
+  padding: 5px 20px;
+  border-radius: 100px;
+  background-color: rgb(17, 189, 106);
+  border: none;
+}
+.gsbtn1 {
+  padding: 10px 25px;
+}
+.gsbtn:hover {
+  background-color: rgb(30, 154, 94);
+}
+.wnlink {
+  text-decoration: none;
+  color: black;
+}
+.wnlink:hover {
+  color: rgb(17, 189, 106);
+}
+.h1 {
+  font-size: 47px;
+  color: rgb(94, 103, 122);
+}
+.p1 {
+  color: rgb(94, 103, 122);
+  font-size: 20px;
+}
+.anima1 {
+  position: relative;
+  animation-name: anima1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes anima1 {
+  0% {
+    top: 0px;
+    top: 0px;
+  }
+  50% {
+    top: 0px;
+    top: 20px;
+  }
+  100% {
+    top: 20px;
+    top: 0px;
+  }
+}
+.box1 {
+  transition: all 0.5s;
+  background-color: rgb(247, 247, 247);
+}
+.box1 a {
+  text-decoration: none;
+  color: rgb(94, 103, 143);
+}
+.box1:hover h4 {
+  color: rgb(17, 189, 106);
+}
+.box1:hover {
+  transform: translateY(-10px);
+}
+.h2 {
+  font-size: 55px;
+  color: rgb(247, 247, 247);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.p2 {
+  font-size: 17px;
+}
+.about1 {
+  position: relative;
+  text-align: center;
+}
+.h3 {
+  font-size: 35px;
+  position: relative;
+  bottom: -20px;
+  color: rgb(94, 103, 122);
+  left: -10px;
+}
+.h4 {
+  color: rgb(94, 103, 122);
+  font-size: 30px;
+}
+.h5 {
+  color: rgb(17, 189, 106);
+  font-size: 50px;
+}
+.p3 {
+  color: rgb(148, 143, 143);
+}
+.dwihte {
+  background-color: rgb(250, 250, 250);
+}
+.greenborderbox {
+  background-color: white;
+  border: 1px rgb(227, 227, 227) solid;
+}
+.green-box {
+  background-color: rgb(17, 189, 106);
+  border-radius: 5px;
+}
+.greenborderbox a {
+  text-decoration: none;
+  color: rgb(94, 103, 122);
+}
+.greenborderbox .h6 {
+  font-size: 25px;
+}
+.greenborderbox p {
+  color: black;
+}
+.greenborderbox:hover {
+  border: rgb(17, 189, 106) solid 1px;
+  cursor: pointer;
+}
+.greenborderbox:hover .h6 {
+  color: rgb(17, 189, 106);
+}
+.port-link a {
+  text-decoration: none;
+  color: black;
+}
+.port-link a:hover {
+  color: rgb(17, 189, 106);
+}
+.p4 {
+  font-size: 14px;
+}
+.img-box1 {
+  position: relative;
+}
+.opy-box1 {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.img-box1:hover .opy-box1 {
+  opacity: 1;
+  bottom: 15px;
+}
+.opy-box1 svg:hover {
+  color: green;
+}
+.cmd-box {
+  background-color: rgb(242, 242, 242);
+}
+.cmd-box .i1 {
+  color: rgb(129, 214, 173);
+  position: relative;
+  top: -10px;
+}
+.cmd-box .i2 {
+  color: rgb(129, 214, 173);
+  position: relative;
+  top: 10px;
+}
+.cmd-img {
+  background-color: rgb(250, 250, 250);
+  padding: 5px;
+  border-radius: 50%;
+}
+.cmd-img-col {
+  color: rgb(94, 103, 122);
+  position: absolute;
+  top: 145px;
+  left: 40px;
+}
+.cmd-img-col b {
+  font-size: 20px;
+}
+.cmd-pt {
+  position: relative;
+}
+.green-box {
+  color: white;
+  background-color: rgb(17, 189, 106);
+}
+.green-box button {
+  padding: 10px 30px;
+  border-radius: 100px;
+  background-color: rgb(17, 189, 106);
+  border: white solid 2px;
+  color: white;
+}
+.green-box button:hover {
+  background-color: rgb(19, 198, 111);
+}
+.tm-cmd {
+  background-color: white;
+  border: solid white 1px;
+  position: relative;
+  top: -70px;
+}
+.h6 {
+  color: rgb(95, 104, 148);
+  font-size: 18px;
+}
+.p5 {
+  color: rgb(104, 104, 163);
+  font-size: 14px;
+}
+.tm-icon {
+  color: rgb(199, 199, 199);
+}
+.tm-icon svg:hover {
+  color: green;
+}
+.h7 {
+  color: rgb(95, 104, 148);
+  font-size: 20px;
+}
+
+.p6 {
+  color: rgb(104, 104, 163);
+  font-size: 15px;
+}
+.ft-icn svg {
+  padding: 12px;
+  border-radius: 100%;
+  background-color: rgb(216, 250, 232);
+  color: rgb(17, 189, 106);
+}
+.ft-icn svg:hover {
+  background-color: rgb(17, 189, 106);
+  color: white;
+}
+.message input {
+  border: 1px solid rgb(207, 199, 199);
+  width: 100%;
+  height: 40px;
+}
+.mssg input {
+  height: 210px;
+}
+.h8 {
+  color: rgb(94, 103, 122);
+  font-size: 24px;
+}
+.inpt input {
+  border-radius: 100px;
+  height: 43px;
+  background-color: white;
+  border: 1px solid white;
+}
+.fbox p {
+  color: rgb(69, 69, 69);
+  font-size: 15px;
+}
+.h9 {
+  color: rgb(94, 103, 122);
+  font-size: 18px;
+}
+.fbox a {
+  color: rgb(69, 69, 69);
+  font-size: 15px;
+  text-decoration: none;
+}
+.fbox a:hover {
+  color: rgb(19, 198, 111);
+}
+.fr-icon svg {
+  color: rgb(94, 103, 122);
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 100%;
+  border: 1px solid rgb(94, 103, 122);
+}
+.fr-icon svg:hover {
+  color: rgb(19, 198, 111);
+  border: 1px solid rgb(19, 198, 111);
+}
+hr {
+  color: grey;
+}
+.fp3 {
+  font-size: 15px;
+  color: rgb(85, 87, 93);
+}
+.fp4 {
+  font-size: 13px;
+}
+.fp4 a {
+  color: rgb(17, 189, 126);
+  text-decoration: none;
+}
